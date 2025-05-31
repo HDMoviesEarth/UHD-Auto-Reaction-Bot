@@ -12,7 +12,7 @@ DB_URI = os.environ.get("DB_URI", "mongodb+srv://HDMoviesEarth:unqOY8gUrmDLNXHd@
 DB_NAME = os.environ.get("DB_NAME", "HDMoviesEarth")
 
 IS_FSUB = os.environ.get("IS_FSUB", "False").lower() == "true"  # Set "True" For Enable Force Subscribe
-AUTH_CHANNELS = list(map(int, os.environ.get("AUTH_CHANNEL", "-100******** -100*********").split())) # Add Multiple channel ids
+AUTH_CHANNELS = list(map(int, os.environ.get("AUTH_CHANNEL", "-1001943817170").split())) # Add Multiple channel ids
 
 EMOJIS = [
     "👍", "❤️", "🔥", "🥰", "👏", "😁", "🤔", "🤯", "😱", "😢",
